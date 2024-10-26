@@ -22,22 +22,17 @@
        var $alias = "KNOWN ALIAS: RAHUL"
        var $occupation  = "OCCUPATION: SOFTWARE ENGINEER | CLOUD ENGINEER";
        var $TechnicalSkills  = "TECHNICAL SKILLS";
-         
-         
-         var $CSSFrameworks = "Containerization & Orchestration: Docker, Kubernetes (CKA Certified), Amazon ECR";
-         var $CSSPre = "CI/CD & DevOps Tools: Jenkins, GitLab CI/CD, GitHub Actions, AWS CodePipeline, Prometheus, ELK Stack";
-         var $frontEndAnimation = "Data Storage: AWS RDS, DynamoDB, Redshift, Google BigQuery";
-         
+
          var $Programming = "Programming & Scripting: Python, Go, Bash, PowerShell, Java, SQL";
          var $CloudPlatforms = "Cloud Platforms: AWS, Microsoft Azure, Google Cloud Platform (GCP), Oracle Cloud";
          var $ContainerizationOrchestration = "Containerization & Orchestration: Docker, Kubernetes (CKA Certified), Amazon ECR";             var $iac = "IaC - Automation & Configuration Management: Terraform, AWS CloudFormation, Ansible";
          var $Iac = "IaC - Automation & Configuration Management: Terraform, AWS CloudFormation, Ansible";
-         var $DevOps = "CI/CD & DevOps Tools: Jenkins, GitLab CI/CD, GitHub Actions, AWS CodePipeline, Prometheus, ELK Stack";
-         var $DataStorage = "Data Storage: AWS RDS, DynamoDB, Redshift, Google BigQuery";
+         var $DevOps = "CI/CD & DevOps Tools: Jenkins, GitLab CI/CD, GitHub Actions, AWS CodePipeline";
+         var $DataStorage = "Data Storage: MySQL, AWS RDS, S3, DynamoDB, Redshift";
          var $Monitoring = "Monitoring, Logging & Alerting: Prometheus, Grafana, AWS CloudWatch, ELK Stack (Elasticsearch, Logstash, Kibana), PagerDuty";
          var $Networking = "Networking: TCP/IP, Subnetting, DNS, VPC, VPN, Load Balancers, CDN";
          var $Security = "Security: IAM, SSL/TLS, Firewalls, Security Groups, KMS, SIEM";
-         var $Compliance = "GDPR, HIPAA, SOC 2, PCI DSS, NIST Cybersecurity Framework, FedRAMP";
+         var $Compliance = "Compliance: GDPR, HIPAA, SOC 2, PCI DSS, NIST Cybersecurity Framework, FedRAMP";
          
        var $cmsDevelopment = "WORDPRESS DEVELOPMENT: WORDPRESS";
          var $wordpress = "WORDPRESS: CUSTOM THEMING | PLUGINS";
