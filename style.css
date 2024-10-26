@@ -5,20 +5,6 @@ body {
     background-color: #000;
 }
 
-container {
-    width: 80%;
-    /* 80% width, leaving 10% on each side */
-    max-width: 1200px;
-    /* Optional: Set a maximum width for larger screens */
-    padding: 20px;
-    /* Add padding */
-    background-color: #f0f0f0;
-    /* Background color for visibility */
-    border: 1px solid #ccc;
-    /* Optional border */
-    text-align: center;
-    /* Center text */
-}
 
 h1 {
     font-family: 'Share Tech', sans-serif;
