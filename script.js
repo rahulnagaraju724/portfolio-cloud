@@ -21,12 +21,24 @@
        var $name = "NAME: RAHUL NAGARAJU";
        var $alias = "KNOWN ALIAS: RAHUL"
        var $occupation  = "OCCUPATION: SOFTWARE ENGINEER | CLOUD ENGINEER";
-       var $frontEnd  = "FRONT END DEVELOPMENT CORE: HTML5 | CSS3 | JAVASCRIPT";
-         var $JSFrameworks = "Programming & Scripting: Python, Go, Bash, PowerShell";
+       var $frontEnd  = "TECHNICAL SKILLS";
+         var $JSFrameworks = "Programming & Scripting: Python, Go, Bash, PowerShell, Java, SQL";
          var $JSLibs = "Cloud Platforms: AWS, Microsoft Azure, Google Cloud Platform (GCP), Oracle Cloud";
-         var $CSSFrameworks = "Containerization & Orchestration: Docker, Kubernetes (CKA Certified)";
-         var $CSSPre = "CI/CD & DevOps: Jenkins, GitLab CI/CD, GitHub Actions, AWS CodePipeline, Prometheus, ELK Stack";
+         var $CSSFrameworks = "Containerization & Orchestration: Docker, Kubernetes (CKA Certified), Amazon ECR";
+         var $CSSPre = "CI/CD & DevOps Tools: Jenkins, GitLab CI/CD, GitHub Actions, AWS CodePipeline, Prometheus, ELK Stack";
          var $frontEndAnimation = "Data Storage: AWS RDS, DynamoDB, Redshift, Google BigQuery";
+         
+         var $programming = "Programming & Scripting: Python, Go, Bash, PowerShell, Java, SQL";
+         var $cloudPlatforms = "Cloud Platforms: AWS, Microsoft Azure, Google Cloud Platform (GCP), Oracle Cloud";
+         var $containerizationOrchestration = "Containerization & Orchestration: Docker, Kubernetes (CKA Certified), Amazon ECR";             var $iac = "IaC - Automation & Configuration Management: Terraform, AWS CloudFormation, Ansible";
+         var $iac = "IaC - Automation & Configuration Management: Terraform, AWS CloudFormation, Ansible";
+         var $DevOps = "CI/CD & DevOps Tools: Jenkins, GitLab CI/CD, GitHub Actions, AWS CodePipeline, Prometheus, ELK Stack";
+         var $dataStorage = "Data Storage: AWS RDS, DynamoDB, Redshift, Google BigQuery";
+         var $monitoring = "Monitoring, Logging & Alerting: Prometheus, Grafana, AWS CloudWatch, ELK Stack (Elasticsearch, Logstash, Kibana), PagerDuty";
+         var $networking = "Networking: TCP/IP, Subnetting, DNS, VPC, VPN, Load Balancers, CDN";
+         var $security = "Security: IAM, SSL/TLS, Firewalls, Security Groups, KMS, SIEM";
+         var $compliance = "GDPR, HIPAA, SOC 2, PCI DSS, NIST Cybersecurity Framework, FedRAMP";
+         
        var $cmsDevelopment = "WORDPRESS DEVELOPMENT: WORDPRESS";
          var $wordpress = "WORDPRESS: CUSTOM THEMING | PLUGINS";
        var $design = "DESIGN CORE: ADOBE SUITE";
