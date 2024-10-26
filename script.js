@@ -21,23 +21,23 @@
        var $name = "NAME: RAHUL NAGARAJU";
        var $alias = "KNOWN ALIAS: RAHUL"
        var $occupation  = "OCCUPATION: SOFTWARE ENGINEER | CLOUD ENGINEER";
-       var $frontEnd  = "TECHNICAL SKILLS";
-         var $JSFrameworks = "Programming & Scripting: Python, Go, Bash, PowerShell, Java, SQL";
-         var $JSLibs = "Cloud Platforms: AWS, Microsoft Azure, Google Cloud Platform (GCP), Oracle Cloud";
+       var $TechnicalSkills  = "TECHNICAL SKILLS";
+         
+         
          var $CSSFrameworks = "Containerization & Orchestration: Docker, Kubernetes (CKA Certified), Amazon ECR";
          var $CSSPre = "CI/CD & DevOps Tools: Jenkins, GitLab CI/CD, GitHub Actions, AWS CodePipeline, Prometheus, ELK Stack";
          var $frontEndAnimation = "Data Storage: AWS RDS, DynamoDB, Redshift, Google BigQuery";
          
-         var $programming = "Programming & Scripting: Python, Go, Bash, PowerShell, Java, SQL";
-         var $cloudPlatforms = "Cloud Platforms: AWS, Microsoft Azure, Google Cloud Platform (GCP), Oracle Cloud";
-         var $containerizationOrchestration = "Containerization & Orchestration: Docker, Kubernetes (CKA Certified), Amazon ECR";             var $iac = "IaC - Automation & Configuration Management: Terraform, AWS CloudFormation, Ansible";
-         var $iac = "IaC - Automation & Configuration Management: Terraform, AWS CloudFormation, Ansible";
+         var $Programming = "Programming & Scripting: Python, Go, Bash, PowerShell, Java, SQL";
+         var $CloudPlatforms = "Cloud Platforms: AWS, Microsoft Azure, Google Cloud Platform (GCP), Oracle Cloud";
+         var $ContainerizationOrchestration = "Containerization & Orchestration: Docker, Kubernetes (CKA Certified), Amazon ECR";             var $iac = "IaC - Automation & Configuration Management: Terraform, AWS CloudFormation, Ansible";
+         var $Iac = "IaC - Automation & Configuration Management: Terraform, AWS CloudFormation, Ansible";
          var $DevOps = "CI/CD & DevOps Tools: Jenkins, GitLab CI/CD, GitHub Actions, AWS CodePipeline, Prometheus, ELK Stack";
-         var $dataStorage = "Data Storage: AWS RDS, DynamoDB, Redshift, Google BigQuery";
-         var $monitoring = "Monitoring, Logging & Alerting: Prometheus, Grafana, AWS CloudWatch, ELK Stack (Elasticsearch, Logstash, Kibana), PagerDuty";
-         var $networking = "Networking: TCP/IP, Subnetting, DNS, VPC, VPN, Load Balancers, CDN";
-         var $security = "Security: IAM, SSL/TLS, Firewalls, Security Groups, KMS, SIEM";
-         var $compliance = "GDPR, HIPAA, SOC 2, PCI DSS, NIST Cybersecurity Framework, FedRAMP";
+         var $DataStorage = "Data Storage: AWS RDS, DynamoDB, Redshift, Google BigQuery";
+         var $Monitoring = "Monitoring, Logging & Alerting: Prometheus, Grafana, AWS CloudWatch, ELK Stack (Elasticsearch, Logstash, Kibana), PagerDuty";
+         var $Networking = "Networking: TCP/IP, Subnetting, DNS, VPC, VPN, Load Balancers, CDN";
+         var $Security = "Security: IAM, SSL/TLS, Firewalls, Security Groups, KMS, SIEM";
+         var $Compliance = "GDPR, HIPAA, SOC 2, PCI DSS, NIST Cybersecurity Framework, FedRAMP";
          
        var $cmsDevelopment = "WORDPRESS DEVELOPMENT: WORDPRESS";
          var $wordpress = "WORDPRESS: CUSTOM THEMING | PLUGINS";
@@ -109,84 +109,149 @@
                      }else{
                         $("#occupation").removeClass("cursor");
                         setTimeout(function() {
-                           initFrontEnd(0);
+                           initTechnicalSkills(0);
                         }, 1500);
                      }
             }
-            function initFrontEnd(i){
+            function initTechnicalSkills(i){
                $('#front-end-span').addClass('fa fa-wrench');
-               $('#front-end').addClass("cursor").text($frontEnd.substring(0, i));
-                  if(i < $frontEnd.length){
+               $('#technical-skills').addClass("cursor").text($TechnicalSkills.substring(0, i));
+                  if(i < $TechnicalSkills.length){
                      setTimeout(function(){
-                        initFrontEnd(i + 1);  
+                        initTechnicalSkills(i + 1);  
                      }, 35);
                   }else{
-                     $('#front-end').removeClass("cursor");
+                     $('#technical-skills').removeClass("cursor");
                         setTimeout(function() {
-                           initJSFrameworks(0);
+                           initProgramming(0);
                         }, 1500);
                   }
             }
-            function initJSFrameworks(i){
-               $('#js-frameworks').addClass("sign cursor").text($JSFrameworks.substring(0, i));
-                  if(i < $JSFrameworks.length){
+            function initProgramming(i){
+               $('#programming').addClass("sign cursor").text($Programming.substring(0, i));
+                  if(i < $Programming.length){
                      setTimeout(function(){
-                         initJSFrameworks(i + 1);  
+                         initProgramming(i + 1);  
                      }, 35);
                   }else{
-                     $('#js-frameworks').removeClass("cursor");
+                     $('#programming').removeClass("cursor");
                         setTimeout(function() {
-                           initJSLibs(0);
+                           initCloudPlatforms(0);
                         }, 1500);
                   }
             }
-            function initJSLibs(i){
-               $('#js-libs').addClass("sign cursor").text($JSLibs.substring(0, i));
-                  if(i < $JSLibs.length){
+            function initCloudPlatforms(i){
+               $('#cloud-platforms').addClass("sign cursor").text($CloudPlatforms.substring(0, i));
+                  if(i < $CloudPlatforms.length){
                      setTimeout(function(){
-                         initJSLibs(i + 1);  
+                         initCloudPlatforms(i + 1);  
                      }, 35);
                   }else{
-                     $('#js-libs').removeClass("cursor");
+                     $('#cloud-platforms').removeClass("cursor");
                         setTimeout(function() {
-                           initCSSFrameworks(0);
+                           initContainerizationOrchestration(0);
                         }, 1500);
                   }
             }
-            function initCSSFrameworks(i){
-               $('#css-frameworks').addClass("sign cursor").text($CSSFrameworks.substring(0, i));
-                  if(i < $CSSFrameworks.length){
+            function initContainerizationOrchestration(i){
+               $('#containerization-orchestration').addClass("sign cursor").text($ContainerizationOrchestration.substring(0, i));
+                  if(i < $ContainerizationOrchestration.length){
                      setTimeout(function(){
-                         initCSSFrameworks(i + 1);  
+                         initContainerizationOrchestration(i + 1);  
                      }, 35);
                   }else{
-                     $('#css-frameworks').removeClass("cursor");
+                     $('#containerization-orchestration').removeClass("cursor");
                      setTimeout(function() {
-                           initCSSPre(0);
+                           initIac(0);
                         }, 1500);
                   }
             }
-             function initCSSPre(i){
-               $('#css-pre').addClass("sign cursor").text($CSSPre.substring(0, i));
-                  if(i < $CSSPre.length){
+             function initIac(i){
+               $('#iac').addClass("sign cursor").text($Iac.substring(0, i));
+                  if(i < $Iac.length){
                      setTimeout(function(){
-                         initCSSPre(i + 1);  
+                         initIac(i + 1);  
                      }, 35);
                   }else{
-                     $('#css-pre').removeClass("cursor");
+                     $('#iac').removeClass("cursor");
                      setTimeout(function() {
-                           initFrontEndAnimation(0);
+                           initDevOps(0);
                         }, 1500);
                   }
             }
-            function initFrontEndAnimation(i){
-               $('#front-end-animation').addClass("sign cursor").text($frontEndAnimation.substring(0, i));
-                  if(i < $frontEndAnimation.length){
+            function initDevOps(i){
+               $('#devops').addClass("sign cursor").text($DevOps.substring(0, i));
+                  if(i < $DevOps.length){
                      setTimeout(function(){
-                         initFrontEndAnimation(i + 1);  
+                         initDevOps(i + 1);  
                      }, 35);
                   }else{
-                     $('#front-end-animation').removeClass("cursor");
+                     $('#devops').removeClass("cursor");
+                     setTimeout(function() {
+                           initDataStorage(0);
+                        }, 1500);
+                  }
+            }
+            function initDataStorage(i){
+               $('#data-storage').addClass("sign cursor").text($DataStorage.substring(0, i));
+                  if(i < $DataStorage.length){
+                     setTimeout(function(){
+                         initDataStorage(i + 1);  
+                     }, 35);
+                  }else{
+                     $('#data-storage').removeClass("cursor");
+                     setTimeout(function() {
+                           initMonitoring(0);
+                        }, 1500);
+                  }
+            }
+            function initMonitoring(i){
+               $('#monitoring').addClass("sign cursor").text($Monitoring.substring(0, i));
+                  if(i < $Monitoring.length){
+                     setTimeout(function(){
+                         initMonitoring(i + 1);  
+                     }, 35);
+                  }else{
+                     $('#monitoring').removeClass("cursor");
+                     setTimeout(function() {
+                           initNetworking(0);
+                        }, 1500);
+                  }
+            }
+            function initNetworking(i){
+               $('#networking').addClass("sign cursor").text($Networking.substring(0, i));
+                  if(i < $Networking.length){
+                     setTimeout(function(){
+                         initNetworking(i + 1);  
+                     }, 35);
+                  }else{
+                     $('#networking').removeClass("cursor");
+                     setTimeout(function() {
+                           initSecurity(0);
+                        }, 1500);
+                  }
+            }
+            function initSecurity(i){
+               $('#security').addClass("sign cursor").text($Security.substring(0, i));
+                  if(i < $Security.length){
+                     setTimeout(function(){
+                         initSecurity(i + 1);  
+                     }, 35);
+                  }else{
+                     $('#security').removeClass("cursor");
+                     setTimeout(function() {
+                           initCompliance(0);
+                        }, 1500);
+                  }
+            }
+            function initCompliance(i){
+               $('#compliance').addClass("sign cursor").text($Compliance.substring(0, i));
+                  if(i < $Compliance.length){
+                     setTimeout(function(){
+                         initCompliance(i + 1);  
+                     }, 35);
+                  }else{
+                     $('#compliance').removeClass("cursor");
                      setTimeout(function() {
                            initCMSDevelopment(0);
                         }, 1500);
