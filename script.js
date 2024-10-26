@@ -16,17 +16,17 @@
    
    var initProgram = setTimeout(function(){
        var greeting = "UNIDENTIFIED ORGANIC LIFEFORM DETECTED";
-       var message = "RUNNING CODEPEN RESUME PROTOCAL (CRP) FOR @GOTHBURZ";
+       var message = "RUNNING RESUME PROTOCOL (RP) FOR @RAHULNAGARAJU";
        var $identityDiv = $("#identity-results");
-       var $name = "NAME: PETRUS REX";
-       var $alias = "KNOWN ALIAS: PETRUSR3X"
-       var $occupation  = "OCCUPATION: FRONT END DEVELOPER | WORDPRESS DEVLOPER | DESIGNER";
+       var $name = "NAME: RAHUL NAGARAJU";
+       var $alias = "KNOWN ALIAS: RAHUL"
+       var $occupation  = "OCCUPATION: SOFTWARE ENGINEER | CLOUD ENGINEER";
        var $frontEnd  = "FRONT END DEVELOPMENT CORE: HTML5 | CSS3 | JAVASCRIPT";
-         var $JSFrameworks = "JAVASCRIPT FRAMEWORKS: ANGULARJS";
-         var $JSLibs = "JAVASCRIPT LIBRARIES: JQUERY | D3 | C3";
-         var $CSSFrameworks = "CSS FRAMEWORKS: BOOTSTRAP | SEMANTIC UI";
-         var $CSSPre = "CSS PREPROCESSORS: SASS | LESS | STYLUS";
-         var $frontEndAnimation = "FRONT END ANIMATION: CANVAS | HTML5 | SVG";
+         var $JSFrameworks = "Programming & Scripting: Python, Go, Bash, PowerShell";
+         var $JSLibs = "Cloud Platforms: AWS, Microsoft Azure, Google Cloud Platform (GCP), Oracle Cloud";
+         var $CSSFrameworks = "Containerization & Orchestration: Docker, Kubernetes (CKA Certified)";
+         var $CSSPre = "CI/CD & DevOps: Jenkins, GitLab CI/CD, GitHub Actions, AWS CodePipeline, Prometheus, ELK Stack";
+         var $frontEndAnimation = "Data Storage: AWS RDS, DynamoDB, Redshift, Google BigQuery";
        var $cmsDevelopment = "WORDPRESS DEVELOPMENT: WORDPRESS";
          var $wordpress = "WORDPRESS: CUSTOM THEMING | PLUGINS";
        var $design = "DESIGN CORE: ADOBE SUITE";
