@@ -34,8 +34,8 @@
          var $Security = "Security: IAM, SSL/TLS, Firewalls, Security Groups, KMS, SIEM";
          var $Compliance = "Compliance: GDPR, HIPAA, SOC 2, PCI DSS, NIST Cybersecurity Framework, FedRAMP";
          
-       var $cmsDevelopment = "WORDPRESS DEVELOPMENT: WORDPRESS";
-         var $wordpress = "WORDPRESS: CUSTOM THEMING | PLUGINS";
+       var $AWS = "AWS";
+         var $AWSSkills = "AWS CloudFormation, AWS Lambda, AWS EC2, AWS S3, AWS RDS, AWS VPC, AWS IAM, AWS CloudWatch, AWS ECS/EKS, AWS CloudTrail, AWS Elastic Beanstalk, AWS Route 53, AWS CodePipeline, AWS SQS/SNS, AWS Redshift, AWS DynamoDB";
        var $design = "DESIGN CORE: ADOBE SUITE";
          var $webDesign = "WEB DESIGN: INDESIGN CC | MUSE CC";
          var $branding = "ILLUSTRATIONS & BRANDING: ILLUSTRATOR CC | PHOTOSHOP CC";
@@ -248,38 +248,38 @@
                   }else{
                      $('#compliance').removeClass("cursor");
                      setTimeout(function() {
-                           initCMSDevelopment(0);
+                           initAWS(0);
                         }, 1500);
                   }
             }
-            function initCMSDevelopment(i){
-               $('#cms-span').addClass("fa fa-wordpress")
-               $('#CMS-development').addClass("cursor").text($cmsDevelopment.substring(0, i));
-                  if(i < $cmsDevelopment.length){
+            function initAWS(i){
+               $('#aws-span').addClass("fa fa-wordpress")
+               $('#aws').addClass("cursor").text($AWS.substring(0, i));
+                  if(i < $AWS.length){
                      setTimeout(function(){
-                         initCMSDevelopment(i + 1);  
+                         initAWS(i + 1);  
                      }, 35);
                   }else{
-                     $('#CMS-development').removeClass("cursor");
+                     $('#aws').removeClass("cursor");
                      setTimeout(function() {
-                           initWordpress(0);
+                           initAWSSkills(0);
                         }, 1500);
                   }
             }
-            function initWordpress(i){
-               $('#wordpress').addClass("sign cursor").text($wordpress.substring(0, i));
-                  if(i < $wordpress.length){
+            function initAWSSkills(i){
+               $('#aws-skills').addClass("cursor").text($AWSSkills.substring(0, i));
+                  if(i < $AWSSkills.length){
                      setTimeout(function(){
-                         initWordpress(i + 1);  
+                         initAWSSkills(i + 1);  
                      }, 35);
                   }else{
-                     $('#wordpress').removeClass("cursor");
+                     $('#aws-skills').removeClass("cursor");
                      setTimeout(function() {
                            initDesign(0);
                         }, 1500);
                   }
             }
-             function initDesign(i){
+            function initDesign(i){
                $('#design-span').addClass('fa fa-paint-brush');
                $('#design').addClass("cursor").text($design.substring(0, i));
                   if(i < $design.length){
