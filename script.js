@@ -13,6 +13,9 @@
          clearInterval(loading);
          $loadingMessage.hide();
       }, 1500);
+
+    const delayTime=8;
+    const briefDelay=350;
    
    var initProgram = setTimeout(function(){
        var greeting = "UNIDENTIFIED ORGANIC LIFEFORM DETECTED";
@@ -46,7 +49,7 @@
             if(i < message.length){
                 setTimeout(function(){
                     initIdentityResults(i + 1);
-                }, 35);   
+                }, delayTime);   
             }else{
                $('#message').removeClass("cursor");
                var loadingResume = function(){
@@ -60,7 +63,7 @@
                           setTimeout(function() {
                               clearInterval(loadingAlpha);
                               $("#loadingMessage2").hide();
-                           }, 2000);
+                           }, 1000);
                       }
                   }, 350);  // Dot Speed
                }
@@ -70,12 +73,12 @@
                      if(i < $name.length){
                         setTimeout(function(){
                            initName(i + 1);   
-                        }, 35);
+                        }, delayTime);
                      }else{
                         $("#name").removeClass("cursor");
                         setTimeout(function() {
                            initAlias(0);
-                        }, 1500);      
+                        }, briefDelay);      
                      }
                }
                setTimeout(function() {
@@ -87,12 +90,12 @@
                      if(i < $alias.length){
                         setTimeout(function(){
                            initAlias(i + 1);   
-                        }, 35);
+                        }, delayTime);
                      }else{
                         $("#alias").removeClass("cursor");
                         setTimeout(function() {
                            initOccupation(0);
-                        }, 1500);
+                        }, briefDelay);
                      }
             }
             function initOccupation(i){
@@ -100,12 +103,12 @@
                      if(i < $occupation.length){
                         setTimeout(function(){
                            initOccupation(i + 1);   
-                        }, 35);
+                        }, delayTime);
                      }else{
                         $("#occupation").removeClass("cursor");
                         setTimeout(function() {
                            initTechnicalSkills(0);
-                        }, 1500);
+                        }, briefDelay);
                      }
             }
             function initTechnicalSkills(i){
@@ -114,12 +117,12 @@
                   if(i < $TechnicalSkills.length){
                      setTimeout(function(){
                         initTechnicalSkills(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#technical-skills').removeClass("cursor");
                         setTimeout(function() {
                            initProgramming(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initProgramming(i){
@@ -127,12 +130,12 @@
                   if(i < $Programming.length){
                      setTimeout(function(){
                          initProgramming(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#programming').removeClass("cursor");
                         setTimeout(function() {
                            initCloudPlatforms(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initCloudPlatforms(i){
@@ -140,12 +143,12 @@
                   if(i < $CloudPlatforms.length){
                      setTimeout(function(){
                          initCloudPlatforms(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#cloud-platforms').removeClass("cursor");
                         setTimeout(function() {
                            initContainerizationOrchestration(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initContainerizationOrchestration(i){
@@ -153,12 +156,12 @@
                   if(i < $ContainerizationOrchestration.length){
                      setTimeout(function(){
                          initContainerizationOrchestration(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#containerization-orchestration').removeClass("cursor");
                      setTimeout(function() {
                            initIac(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
              function initIac(i){
@@ -166,12 +169,12 @@
                   if(i < $Iac.length){
                      setTimeout(function(){
                          initIac(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#iac').removeClass("cursor");
                      setTimeout(function() {
                            initDevOps(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initDevOps(i){
@@ -179,12 +182,12 @@
                   if(i < $DevOps.length){
                      setTimeout(function(){
                          initDevOps(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#devops').removeClass("cursor");
                      setTimeout(function() {
                            initDataStorage(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initDataStorage(i){
@@ -192,12 +195,12 @@
                   if(i < $DataStorage.length){
                      setTimeout(function(){
                          initDataStorage(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#data-storage').removeClass("cursor");
                      setTimeout(function() {
                            initMonitoring(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initMonitoring(i){
@@ -205,12 +208,12 @@
                   if(i < $Monitoring.length){
                      setTimeout(function(){
                          initMonitoring(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#monitoring').removeClass("cursor");
                      setTimeout(function() {
                            initNetworking(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initNetworking(i){
@@ -218,12 +221,12 @@
                   if(i < $Networking.length){
                      setTimeout(function(){
                          initNetworking(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#networking').removeClass("cursor");
                      setTimeout(function() {
                            initSecurity(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initSecurity(i){
@@ -231,12 +234,12 @@
                   if(i < $Security.length){
                      setTimeout(function(){
                          initSecurity(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#security').removeClass("cursor");
                      setTimeout(function() {
                            initCompliance(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initCompliance(i){
@@ -244,12 +247,12 @@
                   if(i < $Compliance.length){
                      setTimeout(function(){
                          initCompliance(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#compliance').removeClass("cursor");
                      setTimeout(function() {
                            initAWS(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initAWS(i){
@@ -258,12 +261,12 @@
                   if(i < $AWS.length){
                      setTimeout(function(){
                          initAWS(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#aws').removeClass("cursor");
                      setTimeout(function() {
                            initAWSSkills(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initAWSSkills(i){
@@ -271,12 +274,12 @@
                   if(i < $AWSSkills.length){
                      setTimeout(function(){
                          initAWSSkills(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#aws-skills').removeClass("cursor");
                      setTimeout(function() {
                            initDesign(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initDesign(i){
@@ -285,12 +288,12 @@
                   if(i < $design.length){
                      setTimeout(function(){
                          initDesign(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#design').removeClass("cursor");
                      setTimeout(function() {
                            initWebDesign(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initWebDesign(i){
@@ -298,12 +301,12 @@
                   if(i < $webDesign.length){
                      setTimeout(function(){
                          initWebDesign(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#web-design').removeClass("cursor");
                      setTimeout(function() {
                            initBranding(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initBranding(i){
@@ -311,12 +314,12 @@
                   if(i < $branding.length){
                      setTimeout(function(){
                          initBranding(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      $('#branding').removeClass("cursor");
                      setTimeout(function() {
                            initDesignAnimation(0);
-                        }, 1500);
+                        }, briefDelay);
                   }
             }
             function initDesignAnimation(i){
@@ -324,7 +327,7 @@
                   if(i < $designAnimation.length){
                      setTimeout(function(){
                          initDesignAnimation(i + 1);  
-                     }, 35);
+                     }, delayTime);
                   }else{
                      //$('#design-animation').removeClass("cursor");
                   }
@@ -336,7 +339,7 @@
             if(i < greeting.length){
                 setTimeout(function(){
                     initProgramAlpha(i + 1);
-                }, 35);   
+                }, delayTime);   
             }else{
                $("#greeting").removeClass("cursor");
                initIdentityResults(0);
@@ -344,7 +347,7 @@
          }
          initProgramAlpha(0)
    
-   }, 1500);
+   }, briefDelay);
 
 initProgram()
 
