@@ -31,12 +31,12 @@
          var $ContainerizationOrchestration = "Containerization & Orchestration: Docker, Kubernetes (CKA Certified)";
          var $Iac = "IaC - Automation & Configuration Management: Terraform, Ansible";
          var $DevOps = "CI/CD & DevOps Tools: Jenkins, GitLab CI/CD, GitHub Actions";
-         var $DataStorage = "Data Storage: MySQL, MongoDB, S3, RDS";
+         var $DataStorage = "Data Storage: MySQL, Oracle, MongoDB, S3, RDS";
          var $Monitoring = "Monitoring, Logging & Alerting: Prometheus, Grafana, AWS CloudWatch, ELK Stack (Elasticsearch, Logstash, Kibana), PagerDuty";
          var $Networking = "Networking: TCP/IP, Subnetting, DNS, VPC, VPN, Load Balancing, CDN";
          var $Security = "Security: IAM, SSL/TLS, Firewalls, Security Groups, KMS, SIEM";
          var $Compliance = "Compliance: GDPR, HIPAA, SOC 2, PCI DSS, NIST Cybersecurity Framework, FedRAMP";
-         
+         var $WebDevelopment = "Web Development: MERN (MongoDB, Express.js, React, and Node.js), Spring"
        var $AWS = "AWS";
          var $AWSSkills = "EC2, VPC, IAM, S3, RDS, DynamoDB, CloudFormation, Lambda, ECR, ECS, EKS, CloudWatch, CloudTrail, Route 53, Elastic Beanstalk, CodePipeline, SQS/SNS, Redshift"
        var $design = "DESIGN CORE: ADOBE SUITE";
