@@ -28,17 +28,17 @@
 
          var $Programming = "Programming & Scripting: Python, Go, Bash, PowerShell, Java, SQL";
          var $CloudPlatforms = "Cloud Platforms: AWS, Microsoft Azure, Google Cloud Platform (GCP), Oracle Cloud";
-         var $ContainerizationOrchestration = "Containerization & Orchestration: Docker, Kubernetes (CKA Certified), Amazon ECR";             var $iac = "IaC - Automation & Configuration Management: Terraform, AWS CloudFormation, Ansible";
-         var $Iac = "IaC - Automation & Configuration Management: Terraform, AWS CloudFormation, Ansible";
-         var $DevOps = "CI/CD & DevOps Tools: Jenkins, GitLab CI/CD, GitHub Actions, AWS CodePipeline";
-         var $DataStorage = "Data Storage: MySQL, AWS RDS, S3, DynamoDB, Redshift";
+         var $ContainerizationOrchestration = "Containerization & Orchestration: Docker, Kubernetes (CKA Certified)";
+         var $Iac = "IaC - Automation & Configuration Management: Terraform, Ansible";
+         var $DevOps = "CI/CD & DevOps Tools: Jenkins, GitLab CI/CD, GitHub Actions";
+         var $DataStorage = "Data Storage: MySQL, MongoDB, S3, RDS";
          var $Monitoring = "Monitoring, Logging & Alerting: Prometheus, Grafana, AWS CloudWatch, ELK Stack (Elasticsearch, Logstash, Kibana), PagerDuty";
-         var $Networking = "Networking: TCP/IP, Subnetting, DNS, VPC, VPN, Load Balancers, CDN";
+         var $Networking = "Networking: TCP/IP, Subnetting, DNS, VPC, VPN, Load Balancing, CDN";
          var $Security = "Security: IAM, SSL/TLS, Firewalls, Security Groups, KMS, SIEM";
          var $Compliance = "Compliance: GDPR, HIPAA, SOC 2, PCI DSS, NIST Cybersecurity Framework, FedRAMP";
          
        var $AWS = "AWS";
-         var $AWSSkills = "AWS CloudFormation, AWS Lambda, AWS EC2, AWS S3, AWS RDS, AWS VPC, AWS IAM, AWS CloudWatch, AWS ECS/EKS, AWS CloudTrail, AWS Elastic Beanstalk, AWS Route 53, AWS CodePipeline, AWS SQS/SNS, AWS Redshift, AWS DynamoDB";
+         var $AWSSkills = "EC2, VPC, IAM, S3, RDS, DynamoDB, CloudFormation, Lambda, ECR, ECS, EKS, CloudWatch, CloudTrail, Route 53, Elastic Beanstalk, CodePipeline, SQS/SNS, Redshift"
        var $design = "DESIGN CORE: ADOBE SUITE";
          var $webDesign = "WEB DESIGN: INDESIGN CC | MUSE CC";
          var $branding = "ILLUSTRATIONS & BRANDING: ILLUSTRATOR CC | PHOTOSHOP CC";
