@@ -39,10 +39,15 @@
          var $WebDevelopment = "Web Development: MERN (MongoDB, Express.js, React, and Node.js), Spring"
        var $AWS = "AWS";
          var $AWSSkills = "EC2, VPC, IAM, S3, RDS, DynamoDB, CloudFormation, Lambda, ECR, ECS, EKS, CloudWatch, CloudTrail, Route 53, Elastic Beanstalk, CodePipeline, SQS/SNS, Redshift"
-       var $design = "DESIGN CORE: ADOBE SUITE";
-         var $webDesign = "WEB DESIGN: INDESIGN CC | MUSE CC";
-         var $branding = "ILLUSTRATIONS & BRANDING: ILLUSTRATOR CC | PHOTOSHOP CC";
-         var $designAnimation = "ANIMATION DESIGN: AFTER EFFECTS CC | FLASH CC";
+      //  var $design = "DESIGN CORE: ADOBE SUITE";
+      //    var $webDesign = "WEB DESIGN: INDESIGN CC | MUSE CC";
+      //    var $branding = "ILLUSTRATIONS & BRANDING: ILLUSTRATOR CC | PHOTOSHOP CC";
+      //    var $designAnimation = "ANIMATION DESIGN: AFTER EFFECTS CC | FLASH CC";
+       var $Certifications = "CERTIFICATIONS";
+         var $Certification1 = "IBM Certified Professional Architect - Cloud v5";
+         var $Certification2 = "Oracle Cloud Infrastructure and Data Management Foundations Certified Associate";
+         var $Certification3 = "IBM Certified Professional SRE - Cloud v2";
+         var $Certification4 = "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional";
          
       function initIdentityResults(i){
           $("#message").addClass("sign cursor").text(message.substring(0, i));
@@ -278,60 +283,84 @@
                   }else{
                      $('#aws-skills').removeClass("cursor");
                      setTimeout(function() {
-                           initDesign(0);
+                           initCertifications(0);
                         }, briefDelay);
                   }
             }
-            function initDesign(i){
-               $('#design-span').addClass('fa fa-paint-brush');
-               $('#design').addClass("cursor").text($design.substring(0, i));
-                  if(i < $design.length){
+            function initCertifications(i){
+               $('#certifications-span').addClass('fa fa-paint-brush');
+               $('#certifications').addClass("cursor").text($Certifications.substring(0, i));
+                  if(i < $Certifications.length){
                      setTimeout(function(){
-                         initDesign(i + 1);  
+                         initCertifications(i + 1);  
                      }, delayTime);
                   }else{
-                     $('#design').removeClass("cursor");
+                     $('#certifications').removeClass("cursor");
                      setTimeout(function() {
-                           initWebDesign(0);
+                           initCertification1(0);
                         }, briefDelay);
                   }
             }
-            function initWebDesign(i){
-               $('#web-design').addClass("sign cursor").text($webDesign.substring(0, i));
-                  if(i < $webDesign.length){
+            function initCertification1(i){
+               $('#certification-1').addClass("sign cursor").text($Certification1.substring(0, i));
+                  if(i < $Certification1.length){
                      setTimeout(function(){
-                         initWebDesign(i + 1);  
+                         initCertification1(i + 1);  
                      }, delayTime);
                   }else{
-                     $('#web-design').removeClass("cursor");
+                     $('#certification-1').removeClass("cursor");
                      setTimeout(function() {
-                           initBranding(0);
+                           initCertification2(0);
                         }, briefDelay);
                   }
             }
-            function initBranding(i){
-               $('#branding').addClass("sign cursor").text($branding.substring(0, i));
-                  if(i < $branding.length){
+            function initCertification2(i){
+               $('#certification-2').addClass("sign cursor").text($Certification2.substring(0, i));
+                  if(i < $Certification2.length){
                      setTimeout(function(){
-                         initBranding(i + 1);  
+                         initCertification2(i + 1);  
                      }, delayTime);
                   }else{
-                     $('#branding').removeClass("cursor");
+                     $('#certification-2').removeClass("cursor");
                      setTimeout(function() {
-                           initDesignAnimation(0);
+                           initCertification3(0);
                         }, briefDelay);
                   }
             }
-            function initDesignAnimation(i){
-               $('#design-animation').addClass("sign cursor").text($designAnimation.substring(0, i));
-                  if(i < $designAnimation.length){
+            function initCertification3(i){
+               $('#certification-3').addClass("sign cursor").text($Certification3.substring(0, i));
+                  if(i < $Certification3.length){
                      setTimeout(function(){
-                         initDesignAnimation(i + 1);  
+                         initCertification3(i + 1);  
                      }, delayTime);
                   }else{
-                     //$('#design-animation').removeClass("cursor");
+                     $('#certification-3').removeClass("cursor");
+                     setTimeout(function() {
+                           initCertification4(0);
+                        }, briefDelay);
                   }
             }
+            function initCertification4(i){
+               $('#certification-4').addClass("sign cursor").text($Certification4.substring(0, i));
+                  if(i < $Certification4.length){
+                     setTimeout(function(){
+                         initCertification4(i + 1);  
+                     }, delayTime);
+                  }else{
+                     //Nothing here
+                  }
+            }
+            
+            // function initDesignAnimation(i){
+            //    $('#design-animation').addClass("sign cursor").text($designAnimation.substring(0, i));
+            //       if(i < $designAnimation.length){
+            //          setTimeout(function(){
+            //              initDesignAnimation(i + 1);  
+            //          }, delayTime);
+            //       }else{
+            //          //$('#design-animation').removeClass("cursor");
+            //       }
+            // }
          }
          
       function initProgramAlpha(i){
